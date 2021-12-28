@@ -1,5 +1,5 @@
 ---
-label: Service Template
+label: Skill Template
 hide_body: true
 fields:
 - type: boolean
@@ -9,20 +9,20 @@ fields:
   name: topTitle
   label: topTitle
 - type: textarea
-  name: title
-  label: title
+  name: content
+  label: content
+- type: file
+  name: image
+  label: image
 - type: field_group_list
-  name: service
-  label: service
+  name: skill
+  label: skill
   fields:
   - type: text
     name: title
     label: title
-  - type: textarea
-    name: content
-    label: content
-  - type: file
-    name: image
-    label: Icon
+  - type: text
+    name: percent
+    label: percent
 pages:
-- data/serviceSection.yml
+- data/skillSection.yml

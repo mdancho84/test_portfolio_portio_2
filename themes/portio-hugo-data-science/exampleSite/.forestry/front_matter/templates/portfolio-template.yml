@@ -11,15 +11,15 @@ fields:
 - type: file
   name: thumbnail
   label: thumbnail
+- type: tag_list
+  name: categories
+  label: categories
+# - type: text
+#   name: service
+#   label: service
 - type: text
-  name: type
-  label: type
-- type: text
-  name: service
-  label: service
-- type: text
-  name: client
-  label: client
+  name: project
+  label: project
 - type: textarea
   name: shortDescription
   label: shortDescription
@@ -30,7 +30,5 @@ fields:
   name: solution
   label: solution
 pages:
-- content/portfolio/UX-case-study-for-agriculture-app.md
-- content/portfolio/case-study-one.md
-- content/portfolio/event-app-case-study.md
-- content/portfolio/recipe-app-ux-study.md
+- content/portfolio/project-01.md
+- content/portfolio/project-02.md

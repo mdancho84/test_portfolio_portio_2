@@ -1,5 +1,5 @@
 ---
-label: Service Template
+label: Testimonial Template
 hide_body: true
 fields:
 - type: boolean
@@ -12,17 +12,23 @@ fields:
   name: title
   label: title
 - type: field_group_list
-  name: service
-  label: service
+  name: testimonial
+  label: testimonial
   fields:
+  - type: text
+    name: name
+    label: name
   - type: text
     name: title
     label: title
-  - type: textarea
-    name: content
-    label: content
   - type: file
     name: image
-    label: Icon
+    label: image
+  - type: textarea
+    name: comment
+    label: comment
+  - type: number
+    name: star
+    label: star
 pages:
-- data/serviceSection.yml
+- data/testimonialSection.yml

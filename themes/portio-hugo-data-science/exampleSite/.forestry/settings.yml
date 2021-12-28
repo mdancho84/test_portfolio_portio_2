@@ -25,14 +25,12 @@ sections:
 - type: document
   path: data/blogSection.yml
   label: Blog Section
+- type: document
+  path: data/contactSection.yml
+  label: Contact Section
 - type: directory
   path: content/portfolio
   label: Portfolio
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/contact
-  label: Contact
   create: all
   match: "**/*"
 - type: directory

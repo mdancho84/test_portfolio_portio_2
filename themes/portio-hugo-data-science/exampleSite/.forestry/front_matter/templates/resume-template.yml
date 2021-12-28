@@ -8,15 +8,15 @@ fields:
 - type: text
   name: topTitle
   label: topTitle
-- type: text
+- type: textarea
   name: title
   label: title
-- type: textarea
-  name: subtitle
-  label: subtitle
 - type: text
-  name: subsubtitle
-  label: subsubtitle
+  name: buttonName
+  label: buttonName
+- type: file
+  name: buttonTarget
+  label: buttonTarget
 - type: text
   name: tab1Name
   label: tab1Name
@@ -30,19 +30,6 @@ fields:
   name: tab2Target
   label: tab2Target
 - type: field_group_list
-  name: education
-  label: education
-  fields:
-  - type: text
-    name: title
-    label: title
-  - type: textarea
-    name: content
-    label: content
-  - type: text
-    name: time
-    label: time
-- type: field_group_list
   name: experience
   label: experience
   fields:
@@ -55,3 +42,18 @@ fields:
   - type: text
     name: time
     label: time
+- type: field_group_list
+  name: education
+  label: education
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: content
+    label: content
+  - type: text
+    name: time
+    label: time
+pages:
+- data/resumeSection.yml
