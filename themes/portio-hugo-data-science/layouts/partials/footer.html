@@ -7,8 +7,8 @@
 	
 	<div class="container">
 	  
-	  {{ with .Site.Data.contactSection }}
-    {{ if .enable }}
+	  
+    {{ if .Site.Data.contactSection.enable }}
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="footer__cta">
@@ -28,15 +28,15 @@
 					</div>
 					
 					<div class="text-light footer__cta_content">
-						<span>{{ .topTitle }}</span>
-						<h2 class="mb-0">{{ .title | markdownify }}</h2>
+						<span>{{ .Site.Data.contactSection.topTitle }}</span>
+						<h2 class="mb-0">{{ .Site.Data.contactSection.title | markdownify }}</h2>
 					</div>
 					
 					
 					<div class="skill__thumb">
               
               <div class="skill__thumb_image">
-                  <img src="{{ .image | absURL }}" alt="skill-img" style='
+                  <img src="{{ .Site.Data.contactSection.image | absURL }}" alt="skill-img" style='
                                   -webkit-mask: url({{"images/skill/skill-mask-svg.svg" | absURL}});
                                   -webkit-mask-repeat: no-repeat;
                                   -webkit-mask-size: contain;
@@ -75,7 +75,6 @@
   			</div>
 			</div>
 		</div>
-		{{ end }}
 		{{ end }}
 		
 		<div class="row footer__widget">
