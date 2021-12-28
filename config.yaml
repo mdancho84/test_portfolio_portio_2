@@ -1,4 +1,4 @@
-baseURL: http://your-website.com/
+baseURL: mattdancho-portio.netlify.app
 languageCode: en-us
 paginate: 6
 theme: portio-hugo-data-science
