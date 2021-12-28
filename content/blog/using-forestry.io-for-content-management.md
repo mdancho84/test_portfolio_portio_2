@@ -20,13 +20,16 @@ It has cool capabilities like code formatting and a lot of fun stuff.
 
     library(portfoliodown)
     
+    # Create a Portfolio Site
     new_portfolio_site()
 
 ## Where can I learn this for my Data Science Portfolio?
 
-I have great news. I'm adding a new segment to my R-Track system, where I'll teach how to create a data science portfolio using amazing tools:
+I have great news. I'm adding a new course to Business Science Program, where I'll teach how to create a data science portfolio using amazing tools:
 
-* `Portfoliodown` - 
+* `Portfoliodown` - My R package that makes it painless to create Professional Data Science Portfolios.
 * `Forestry.io` - Used for Content Management of your Professional Website
-* `Formspree.io` - Used for creating contact forms.
-* 
+* `Formspree.io` - Used for creating contact forms, which protects your personal information (e.g. email address) from getting into the wrong hands. 
+* Blog / Portfolio - How to create professional blogs.
+
+More coming soon. Until then reach out in the [Contact Section](#contact) below. 
