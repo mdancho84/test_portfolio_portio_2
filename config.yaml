@@ -29,11 +29,11 @@ menu:
       weight: 2
 params:
   blogPageURL: blog
-  contactButtonLabel: Hire Matt Today
+  contactButtonLabel: Join Matt's R Program Today
   contactLink: '#contact'
   copyright: All right reserved copyright © Matt Dancho 2021
   footerLogo: images/site-navigation/logo-matt.png
-  formspreeURL: YOUR FORMSPREE URL
+  formspreeURL: https://formspree.io/f/mdobkekr
   googleAnalytics: YOUR GOOGLE ANALYTICS CODE
   logo: images/site-navigation/logo-matt.png
   social:
