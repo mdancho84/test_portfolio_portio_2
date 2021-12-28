@@ -1,6 +1,5 @@
 +++
 date = 2021-12-28T20:00:00Z
-draft = true
 featureImage = "/uploads/forestryio.jpg"
 postImage = "/uploads/forestryio.jpg"
 title = "Using Forestry.io for Content Management"
