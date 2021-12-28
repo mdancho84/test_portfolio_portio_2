@@ -14,4 +14,18 @@ In short, forestry.io is a content management system that's free to use for sing
 
 ![Writing this blog with forestry.io](/uploads/forestryio_blog_post.jpg "Writing this blog with forestry.io")
 
-But for those starting out, it makes it super easy to manage all of the content (blog, portfolio) on your Professional Data Science Website (if you are using my [portfoliodown](https://business-science.github.io/portfoliodown/ "portfoliodown") package).
+But for those starting out, it **takes the pain away** of managing all of the content (blog, portfolio) on your Professional Data Science Website (if you are using my [portfoliodown](https://business-science.github.io/portfoliodown/ "portfoliodown") package).
+
+It has cool capabilities like code formatting and a lot of fun stuff. 
+
+    library(portfoliodown)
+    
+    new_portfolio_site()
+
+## Where can I learn this for my Data Science Portfolio?
+
+I have great news. I'm adding a new segment to my R-Track system, where I'll teach how to create a data science portfolio using amazing tools:
+
+* Forestry.io - Used for Content Management of your Professional Website
+* Formspree.io
+* 
