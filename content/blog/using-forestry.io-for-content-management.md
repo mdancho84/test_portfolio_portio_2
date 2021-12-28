@@ -26,6 +26,7 @@ It has cool capabilities like code formatting and a lot of fun stuff.
 
 I have great news. I'm adding a new segment to my R-Track system, where I'll teach how to create a data science portfolio using amazing tools:
 
-* Forestry.io - Used for Content Management of your Professional Website
-* Formspree.io
+* `Portfoliodown` - 
+* `Forestry.io` - Used for Content Management of your Professional Website
+* `Formspree.io` - Used for creating contact forms.
 * 
