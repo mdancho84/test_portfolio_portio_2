@@ -126,11 +126,19 @@
         }
         &_social {
             ul {
-                float: right;
+                //float: right;
                 @include desktop {
-                    margin: 20px auto 0;
+                    margin: 20px auto 0px;
                     float: none;
                 }
+            }
+        }
+        &_copy_right {
+            p {
+                @include tablet {
+                    text-align: center;
+                }
+                text-align: right;
             }
         }
     }
