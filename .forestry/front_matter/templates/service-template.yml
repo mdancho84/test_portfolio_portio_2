@@ -15,9 +15,6 @@ fields:
   name: service
   label: service
   fields:
-  - type: text
-    name: title
-    label: title
   - type: textarea
     name: content
     label: content
