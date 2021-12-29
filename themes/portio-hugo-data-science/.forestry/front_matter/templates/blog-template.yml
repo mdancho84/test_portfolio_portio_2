@@ -1,7 +1,10 @@
 ---
-label: blog template
+label: Blog Template
 hide_body: false
 fields:
+- type: text
+  name: title
+  label: Title
 - type: datetime
   name: date
   label: date
@@ -11,8 +14,5 @@ fields:
 - type: file
   name: postImage
   label: postImage
-- type: text
-  name: title
-  label: title
 pages:
-- content/blog/using-forestry.io-for-content-management.md
+- content/blog/markdown-formatting-demo.md
