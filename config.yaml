@@ -38,11 +38,11 @@ params:
   logo: images/site-navigation/logo-matt.png
   social:
     - icon: fa-linkedin-square
-      url: https://www.linkedin.com/
+      url: https://www.linkedin.com/in/mattdancho/
       weight: 1
     - icon: fa-youtube-square
-      url: https://www.pinterest.com/
+      url: https://www.youtube.com/channel/UCqQ_cxcNu1ekqHXDc-MbU_w
       weight: 2
     - icon: fa-twitter-square
-      url: https://twitter.com/
+      url: https://twitter.com/mdancho84
       weight: 3
