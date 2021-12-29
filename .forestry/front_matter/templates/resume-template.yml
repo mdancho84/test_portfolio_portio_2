@@ -33,9 +33,6 @@ fields:
   name: experience
   label: experience
   fields:
-  - type: text
-    name: title
-    label: title
   - type: textarea
     name: content
     label: content
@@ -46,9 +43,6 @@ fields:
   name: education
   label: education
   fields:
-  - type: text
-    name: title
-    label: title
   - type: textarea
     name: content
     label: content
