@@ -11,7 +11,7 @@ fields:
 - type: file
   name: thumbnail
   label: thumbnail
-- type: tag_list
+- type: text
   name: categories
   label: categories
 # - type: text
